@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>添加商品</title>
+</head>
+<body>
+ <table border="1">
+ 	<thead>
+ 		<tr>
+ 			商品添加
+ 		</tr>
+ 	</thead>
+ 	<tbody>
+ 		<tr>
+ 			<th class="left_title">商品名称</th>
+ 			<td><input type="text" name="g_title"></td>
+ 		</tr>
+ 		<tr>
+ 			<th class="left_title">商品图标</th>
+ 			<td><input type="text" name="g_url"></td>
+ 		</tr>
+ 		<tr>
+ 			<th class="left_title">市场价格</th>
+ 			<td><input type="text" name="market_price"></td>
+ 		</tr>
+ 		<tr>
+ 			<th class="left_title">商品原价</th>
+ 			<td><input type="text" name="old_price"></td>
+ 		</tr>
+ 		<tr>
+ 			<th class="left_title">属性</th>
+ 			<td>
+ 				<label><input type="checkbox" name="is_new" value="1" />新品</label>
+		 		<label><input type="checkbox" name="is_hot" value="1" />热销</label>
+		 		<label><input type="checkbox" name="is_best" value="1" />精品</label>
+		 		<label><input type="checkbox" name="is_index" value="1" />首页</label>
+ 			</td>
+ 		</tr>
+ 		<tr>
+ 			<th class="left_title">状态</th>
+ 			<td>
+ 				<label><input type="radio" name="is_on_sale" value="1" checked="" />上架</label>
+				<label><input type="radio" name="is_on_sale" value="0" />下架</label>
+ 			</td>
+ 		</tr>
+ 	</tbody>
+ </table>
+</body>
+</html>
